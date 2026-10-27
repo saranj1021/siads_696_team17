@@ -1,0 +1,8 @@
+feature_group,n_variables
+Identifiers,4
+Primary supervised,10
+Supervised sensitivity,5
+Supervised SVI sensitivity,16
+Primary unsupervised,27
+Unsupervised sensitivity,6
+HPSA score sensitivity,3

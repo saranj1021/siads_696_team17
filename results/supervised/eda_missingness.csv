@@ -1,0 +1,31 @@
+feature,group,n_missing,pct_missing,states_with_missing
+primary_care_physicians_per_100k,primary,7,0.2783300198807157,CT
+nurse_practitioners_per_100k,primary,7,0.2783300198807157,CT
+physician_assistants_per_100k,primary,7,0.2783300198807157,CT
+hospitals_per_100k,primary,7,0.2783300198807157,CT
+hospital_beds_per_1000,primary,7,0.2783300198807157,CT
+fqhcs_per_100k,primary,8,0.31809145129224653,"AK, CT"
+rural_health_clinics_per_100k,primary,8,0.31809145129224653,"AK, CT"
+log_population_density,primary,7,0.2783300198807157,CT
+pc_hpsa_any,primary,0,0.0,
+rucc_metro_status,primary,0,0.0,
+pc_hpsa_count,sensitivity,0,0.0,
+pc_hpsa_max_score,sensitivity,351,13.956262425447315,"AK, AL, AR, CA, CO, CT, FL, GA, HI, IA, ID, IL, IN, KS, KY, LA, MA, MD, ME, MI, MN, MO, MS, NC, ND, NE, NH, NJ, NM, NY, OH, OR, PA, RI, SD, TN, TX, UT, VA, VT, WI, WV, WY"
+rural_urban_contnm_23,sensitivity,0,0.0,
+popn_densty_per_squr_mi_20,sensitivity,7,0.2783300198807157,CT
+EP_POV150,svi,0,0.0,
+EP_UNEMP,svi,0,0.0,
+EP_HBURD,svi,0,0.0,
+EP_NOHSDP,svi,0,0.0,
+EP_UNINSUR,svi,0,0.0,
+EP_AGE65,svi,0,0.0,
+EP_AGE17,svi,0,0.0,
+EP_DISABL,svi,0,0.0,
+EP_SNGPNT,svi,0,0.0,
+EP_LIMENG,svi,0,0.0,
+EP_MINRTY,svi,0,0.0,
+EP_MUNIT,svi,0,0.0,
+EP_MOBILE,svi,0,0.0,
+EP_CROWD,svi,0,0.0,
+EP_NOVEH,svi,0,0.0,
+EP_GROUPQ,svi,0,0.0,

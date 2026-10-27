@@ -1,0 +1,7 @@
+Check,Model,ARI vs. primary,Interpretation
+Seed stability (5 reruns),K-Means k = 5,0.992,Highly stable
+Seed stability (5 reruns),GMM k = 5,0.955,Highly stable
+Seed stability (5 reruns),GMM k = 9,0.747,Moderately stable; treated as exploratory
+Add HPSA flags,K-Means k = 5,0.403,Boundaries shift; clusters stay balanced
+Add HPSA flags,GMM k = 5,0.028,Degenerate (one component with 62% counties)
+Equal domain weighting,K-Means k = 5,0.364,Broad structure kept; vulnerability subtypes merge

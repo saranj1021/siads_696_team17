@@ -1,0 +1,13 @@
+variable,year,category,description,recommended_use,transformation,priority,notes
+fips_st_cnty,,Geography,FIPS state + county code,Join key,Convert to 5-character zero-padded string,Required,Primary key for joining to PLACES/SVI/HPSA
+popn_est_22,2022,Population,Population estimate,Denominator,Use to construct provider/facility rates,Required,Prefer rates over raw counts for county comparisons
+phys_nf_prim_care_pc_exc_rsdt_22,2022,Provider supply,Non-federal primary care physicians in patient care; excludes hospital residents and physicians age 75+,Core supervised predictor,"Per 100,000 population",High,"Aggregate primary care measure; includes general family medicine/practice, general internal medicine, and general pediatrics"
+np_npi_22,2022,Provider supply,Nurse practitioners with NPI,Core supervised predictor,"Per 100,000 population",High,Captures nonphysician primary-care capacity
+pa_npi_22,2022,Provider supply,Physician assistants with NPI,Core supervised predictor,"Per 100,000 population",High,Captures nonphysician outpatient-care capacity
+hosp_22,2022,Healthcare infrastructure,Total number of hospitals,Candidate supervised/unsupervised predictor,"Per 100,000 population",Medium,Raw count is strongly population-dependent
+hosp_beds_22,2022,Healthcare infrastructure,"Hospital beds, total hospitals",Candidate supervised/unsupervised predictor,"Beds per 1,000 population",Medium,More interpretable as a population-normalized capacity measure
+fedly_qualfd_hlth_ctr_22,2022,Healthcare infrastructure,Number of Federally Qualified Health Centers,Candidate supervised/unsupervised predictor,"Per 100,000 population",High,Potentially relevant to safety-net primary-care access
+rural_hlth_clincs_22,2022,Healthcare infrastructure,Number of Rural Health Clinics,Candidate predictor,"Per 100,000 population",Medium,May be especially informative in nonmetro counties
+rural_urban_contnm_23,2023,Geographic/access context,Rural-Urban Continuum Code,Structural access predictor / stratification variable,Treat as categorical or collapse to metro/nonmetro groups,High,Useful for grouped residual analysis and spatial/access context
+popn_densty_per_squr_mi_20,2020,Geographic/access context,Population density per square mile,Candidate predictor,Consider log1p transform due to strong right skew,Medium,Structural geography variable; older year is acceptable if treated as relatively stable
+pers_noins_lt65_pct_21,2021,Community barrier,Percent of persons under 65 without health insurance,Secondary/sensitivity predictor,Use as percentage,Medium,Not perfectly aligned to 2022 and excludes age 65+; use cautiously

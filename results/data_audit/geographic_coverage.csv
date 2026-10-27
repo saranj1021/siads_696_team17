@@ -1,0 +1,6 @@
+source,source_rows,unique_fips,project_fips_matched,project_fips_missing,extra_source_fips
+CDC PLACES,3144,3144,3144,0,0
+CDC/ATSDR SVI,3144,3144,3144,0,0
+HRSA AHRF - raw geography,3240,3240,3144,0,96
+HRSA AHRF - project aligned,3144,3144,3144,0,0
+HRSA HPSA - county aggregate,3144,3144,3144,0,0

@@ -1,0 +1,6 @@
+kmeans_cluster,n,median,Q1,Q3,mean
+"Rural, older, hospital-anchored",636,73.1,70.2,74.8,72.4
+"Urban/suburban, provider-rich",875,75.5,72.8,77.0,74.6
+"Resource-scarce, low-vulnerability",565,73.9,71.5,75.7,73.4
+"High access barriers, young",316,71.6,70.0,75.1,72.2
+"High-hardship, FQHC-reliant",743,75.7,73.6,77.4,75.1

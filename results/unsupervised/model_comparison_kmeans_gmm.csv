@@ -1,0 +1,7 @@
+,K-Means (k = 5),"GMM (full, k = 5)"
+Key selection criteria,Davies-Bouldin min; silhouette local max; elbow,BIC local min after elbow
+Silhouette,0.123,0.023
+Stability (mean ARI across seeds),0.992,0.955
+Stability (min ARI),0.984,0.921
+Clusters with a defining feature (|z| ≥ 1.0),5 of 5,3 of 5
+Robust to adding HPSA flags,"Moderately (ARI 0.40, balanced clusters)","No (ARI 0.03, degenerate solution)"

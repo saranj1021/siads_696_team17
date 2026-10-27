@@ -1,0 +1,6 @@
+kmeans_cluster,% Primary Care HPSA,% Mental Health HPSA,% Dental HPSA
+"Rural, older, hospital-anchored",85.4,95.1,68.7
+"Urban/suburban, provider-rich",72.8,76.3,59.7
+"Resource-scarce, low-vulnerability",86.4,89.7,65.0
+"High access barriers, young",96.5,96.8,79.4
+"High-hardship, FQHC-reliant",96.8,96.0,90.8

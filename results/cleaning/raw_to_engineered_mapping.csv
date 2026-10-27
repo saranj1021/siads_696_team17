@@ -1,0 +1,8 @@
+concept,raw_variable,preferred_analytical_variable
+Primary care physicians,phys_nf_prim_care_pc_exc_rsdt_22,primary_care_physicians_per_100k
+Nurse practitioners,np_npi_22,nurse_practitioners_per_100k
+Physician assistants,pa_npi_22,physician_assistants_per_100k
+Hospitals,hosp_22,hospitals_per_100k
+Hospital beds,hosp_beds_22,hospital_beds_per_1000
+Federally Qualified Health Centers,fedly_qualfd_hlth_ctr_22,fqhcs_per_100k
+Rural Health Clinics,rural_hlth_clincs_22,rural_health_clinics_per_100k

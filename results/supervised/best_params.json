@@ -1,0 +1,24 @@
+{
+  "Dummy":{
+
+  },
+  "Elastic Net":{
+    "model__alpha":0.01,
+    "model__l1_ratio":1.0,
+    "preprocess__rate__log":"FunctionTransformer(feature_names_out='one-to-one', func=<ufunc 'log1p'>)"
+  },
+  "SVR":{
+    "model__C":10,
+    "model__epsilon":0.5,
+    "model__gamma":"scale",
+    "preprocess__rate__log":"FunctionTransformer(feature_names_out='one-to-one', func=<ufunc 'log1p'>)"
+  },
+  "Gradient Boosting":{
+    "model__learning_rate":0.03,
+    "model__loss":"huber",
+    "model__max_depth":4,
+    "model__min_samples_leaf":20,
+    "model__n_estimators":300,
+    "model__subsample":0.8
+  }
+}

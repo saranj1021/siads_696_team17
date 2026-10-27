@@ -1,0 +1,5 @@
+source,source_release,primary_project_period,project_role,important_note
+CDC PLACES,2024 release,2022,Routine-checkup target,Age-adjusted routine-checkup prevalence
+CDC/ATSDR SVI,2022,2022,Social vulnerability features,Underlying indicators used primarily for clustering
+HRSA AHRF,2023-2024 release,Primarily 2022 candidate variables,Healthcare resource features,Some candidate variables come from adjacent years
+HRSA HPSA,Current extract downloaded 2026-09-25,Approximate active status at 2022-12-31,Healthcare shortage features,2022 designation status reconstructed from current extract; score may reflect later updates

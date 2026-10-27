@@ -1,0 +1,5 @@
+stage,rows,unique_fips,rows_lost
+PLACES base,3144,3144,0
+PLACES + AHRF,3144,3144,0
+PLACES + AHRF + HPSA,3144,3144,0
+PLACES + AHRF + HPSA + SVI,3144,3144,0
